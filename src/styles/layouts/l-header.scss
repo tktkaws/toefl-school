@@ -1,0 +1,11 @@
+@use "../foundation/global" as *;
+.l-header {
+    display: flex;
+    flex-direction: row;
+    background-color: $c-base;
+}
+.l-header__item {
+    flex: 1;
+    padding: 1rem;
+    font-size: 2rem;
+}

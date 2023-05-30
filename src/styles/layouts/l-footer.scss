@@ -1,0 +1,7 @@
+@use "../foundation/global" as *;
+.l-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: $c-main;
+}

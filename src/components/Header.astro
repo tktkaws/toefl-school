@@ -1,0 +1,27 @@
+---
+import '../styles/layouts/l-header.scss';
+export interface Props {
+  title: string;
+  body: string;
+  href: string;
+}
+
+const { href, title, body } = Astro.props;
+---
+
+<header class="l-header">
+  <img src="" alt="ロゴ" />
+  <nav class="l-header__nav">
+    <ul class="l-header__list">
+      <li class="l-header__item">
+        <a href="/">top</a>
+        <a href="/course">course</a>
+        <a href="/blog-index">blog-index</a>
+        <a href="/blog">blog</a>
+        <a href="/news-index">news-index</a>
+        <a href="/news">news</a>
+        <a href="/contact">contact</a>
+      </li>
+    </ul>
+  </nav>
+</header>
